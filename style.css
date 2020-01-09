@@ -1,0 +1,60 @@
+*, *::after, *::before {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(10, 10, 10, 1),
+        rgba(10, 10, 10, .8)) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    padding: 30px 0px;
+    color: white;
+}
+
+.test-btns {
+    font-size: 40px;
+    padding: 10px 50px;
+    background-color: steelblue;
+    color: white;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+.handel {
+    width: 50%;
+    margin: 20px;
+}
+
+.question-card {
+    background-color:rgba(10, 90, 158, .35);
+    margin: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.correct {
+    font-size: 20px;
+    background-color: rgba(0, 160, 0, 0.4);
+    margin: 0 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}

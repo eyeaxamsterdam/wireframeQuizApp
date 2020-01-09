@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Classical Music Quiz</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>How Well Do You Know Classical Music?</h1>
+    <section role = "banner" class="banner">
+        <div class="counter">Question: <span class="counter-num">0</span> of <span class="num-questions"></span></div>
+        <div class = "score">Score: <span class="score-correct">0</span> correct; <span class="score-wrong">0</span> incorrect</div>
+    </section>
+</header>
+
+
+<main>
+    <section role = "textbox" class="question-card correct">
+        <div class="qanda">
+            <h2 class="question">Awesome question?</h2>
+        <form class="answers">
+            <form class="answers">
+                <input type="button" class="btn test-btns" value="answer 1">
+                <input type="button" class="btn test-btns" value="answer 2">
+                <input type="button" class="btn test-btns" value="answer 3">
+                <input type="button" class="btn test-btns" value="answer 4">
+            </form>
+        </form>
+    </section>
+    <section class="response">
+        <div class="correct">
+            <img class="handel" src="images/johnCage.jpg" alt="john cage at a prepaired piano">
+            <p>Hey that's correct!</p></div>
+        <button class="next test-btns">Next</button>
+    </section>
+    <section class="summary">
+    </section>
+</main>
+</body>
+<script src="JS/STORE.js"></script>    
+<script src="JS/script.js"></script>
+
+</body>
+</html>
